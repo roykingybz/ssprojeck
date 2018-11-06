@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://192.168.157.100:3306/any?useUnicode=true&characterEncoding=utf8mb4
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: Root!!2018
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #¿ªÆôÍÕ·åÃüÃû
